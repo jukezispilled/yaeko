@@ -29,7 +29,7 @@ function App() {
           <img src={Xlogo} alt="Xlogo" className="w-10 h-10 rounded-md" />
         </a>
         <a
-          href="https://t.me/tatewsol"
+          href="https://t.me/tatewsolana"
           className="p-2 hover:scale-110 transition ease-in-out duration-200"
         >
           <img src={TG} alt="Tg logo" className="w-10 h-10" />
