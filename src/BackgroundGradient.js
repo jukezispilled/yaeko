@@ -55,14 +55,14 @@ export const BackgroundGradient = ({
         className={`absolute inset-0 rounded-3xl z-[1] will-change-transform bg-[radial-gradient(circle_farthest-side_at_0_100%,#080700,transparent),radial-gradient(circle_farthest-side_at_100%_0,#f7d622,transparent),radial-gradient(circle_farthest-side_at_100%_100%,#f7d622,transparent),radial-gradient(circle_farthest-side_at_0_0,#080700,#080700)]`}
       />
       <motion.div
-        className="absolute bottom-5 left-5 md:bottom-10 md:left-10 text-5xl md:text-7xl text-[#F6D10A] font-custom"
+        className="absolute top-3 left-5 md:top-7 md:left-10 text-6xl md:text-7xl text-[#F6D10A] font-custom"
         style={{ zIndex: 30 }}
       >
         $W
       </motion.div>
       <motion.a
         href="/"
-        className="absolute bottom-[18px] right-5 md:bottom-9 md:right-10 md:hover:scale-105 transition ease-in-out duration-200 text-2xl md:text-5xl bg-[#F6D10A] px-4 py-2 rounded-md font-custom"
+        className="absolute bottom-[18px] right-5 md:bottom-9 md:right-10 md:hover:scale-105 transition ease-in-out duration-200 text-4xl md:text-6xl bg-[#F6D10A] px-4 py-2 rounded-md font-custom"
         style={{ zIndex: 30 }}
       >
         <div className="-mt-2 md:mb-1">BUY</div>
