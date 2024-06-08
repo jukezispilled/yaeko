@@ -19,7 +19,7 @@ function App() {
         ></div>
       </BackgroundGradient>
       <div className="absolute top-0 left-0 mt-5 ml-5 hidden md:block">
-        <AudioPlayer src={song} autoPlay controls />
+        <AudioPlayer src={song} controls />
       </div>
       <div className="absolute bottom-10 right-10 flex flex-row z-30 hidden md:flex">
         <a
