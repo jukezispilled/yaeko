@@ -125,7 +125,7 @@ function App() {
                     </div>
                     <div className='flex justify-center'>
                       <button
-                        className="text-xl mt-2 p-2 w-min bg-black text-white rounded-md hover:bg-gray-600 transition ease-in-out duration-200"
+                        className="text-xl mt-2 p-2 w-min bg-black text-white rounded-md transition ease-in-out duration-200"
                         onClick={handleCopy}
                       >
                         {copied ? "Copied!" : "Copy"}
