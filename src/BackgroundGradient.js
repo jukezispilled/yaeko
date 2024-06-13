@@ -61,11 +61,11 @@ export const BackgroundGradient = ({
         $UNI
       </motion.div>
       <motion.a
-        href="/https://dexscreener.com/solana/7y2wswtj9c8mowyjdvzhru59ac6ouzsugbtiekxcrvvh"
+        href="https://dexscreener.com/solana/7y2wswtj9c8mowyjdvzhru59ac6ouzsugbtiekxcrvvh"
         className="absolute bottom-[18px] right-5 md:bottom-9 md:right-10 md:hover:scale-105 transition ease-in-out duration-200 text-4xl md:text-6xl bg-[#F6D10A] px-4 py-2 rounded-md font-custom"
         style={{ zIndex: 30 }}
       >
-        <div className="-mt-2 md:mb-1">BUY</div>
+        <div className="mt-1.5 md:mt-2">BUY</div>
       </motion.a>
       <div className={`relative z-20 ${className}`}>{children}</div>
     </div>
