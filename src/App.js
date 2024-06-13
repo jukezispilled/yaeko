@@ -89,7 +89,7 @@ function App() {
             </div>
             <div className='grid grid-cols-2 md:grid-cols-3 gap-4 p-4 md:px-12'>
               {memes.map((meme, index) => (
-                <div key={index} className='bg-gray-300 h-[180px] flex items-center justify-center rounded-lg overflow-hidden'>
+                <div key={index} className='bg-gray-300 h-[200px] flex items-center justify-center rounded-lg overflow-hidden'>
                   <img src={meme} alt={`Meme ${index + 1}`} className='object-cover w-full h-full' />
                 </div>
               ))}
