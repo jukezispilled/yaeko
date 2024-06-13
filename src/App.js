@@ -136,7 +136,7 @@ function App() {
               </div>
             </div>
             <div className='h-[300px] w-screen bg-[#F6D10A] flex items-center justify-center'>
-              <a href="https://dexscreener.com/" target="_blank" rel="noopener noreferrer">
+              <a href="https://dexscreener.com/solana/7y2wswtj9c8mowyjdvzhru59ac6ouzsugbtiekxcrvvh" target="_blank" rel="noopener noreferrer">
                 <motion.button
                   className="bg-black font-custom text-white text-4xl md:text-6xl py-4 px-12 rounded-lg md:hover:scale-105 transition ease-in-out duration-200"
                   initial="initial"
