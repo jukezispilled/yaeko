@@ -71,13 +71,13 @@ function App() {
       {/* Large screen social media links */}
       <div className="absolute bottom-10 right-10 flex flex-row z-30 hidden md:flex">
         <a
-          href="https://x.com/"
+          href="https://x.com/happitoken"
           className="p-2 hover:scale-110 transition ease-in-out duration-200"
         >
           <img src={Xlogo} alt="Xlogo" className="w-10 h-10 rounded-md" />
         </a>
         <a
-          href="https://t.me/"
+          href="https://t.me/happitoken"
           className="p-2 hover:scale-110 transition ease-in-out duration-200"
         >
           <img src={TG} alt="Tg logo" className="w-10 h-10" />
