@@ -61,7 +61,7 @@ export const BackgroundGradient = ({
         $happi
       </motion.div>
       <motion.a
-        href="https://pump.fun/board"
+        href="https://pump.fun/5ZMBJezsvSE1UnKdAJUAcXVzSm8QhqH8bfqkGALDpump"
         className="absolute bottom-[18px] right-5 md:bottom-9 md:right-10 md:hover:scale-105 transition ease-in-out duration-200 text-4xl md:text-6xl bg-yellow-300 px-5 py-2.5 rounded-md font-custom"
         style={{ zIndex: 30 }}
       >

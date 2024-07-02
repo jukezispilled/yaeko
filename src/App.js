@@ -13,7 +13,7 @@ function App() {
   const audioRef = useRef(null);
 
   const handleCopy = () => {
-    navigator.clipboard.writeText('hKAH847w4Ex8EUeiRss5etmCcBPwPrrkDPm3k7Spump');
+    navigator.clipboard.writeText('5ZMBJezsvSE1UnKdAJUAcXVzSm8QhqH8bfqkGALDpump');
     setCopied(true);
     setTimeout(() => {
       setCopied(false);
@@ -61,7 +61,7 @@ function App() {
         >
           {copied ? 'Copied!' : 'Copy'}
         </button>
-        <span className='whitespace-nowrap'>coming soon...</span>
+        <span className='whitespace-nowrap'>5ZMBJezsvSE1UnKdAJUAcXVzSm8QhqH8bfqkGALDpump</span>
       </div>
       <ReactAudioPlayer
         ref={audioRef}
