@@ -57,7 +57,7 @@ function App() {
       <div className='flex justify-center mt-5 bg-slate-100 rounded-full z-10 items-center gap-4 px-5 py-1.5 w-min border-2 border-slate-400'>
         <button
           onClick={handleCopy}
-          className="bg-yellow-500 text-white py-2 px-4 rounded-full hover:bg-yellow-600 border-2 border-white transition-colors duration-300 z-10"
+          className="bg-yellow-500 text-white py-2 px-4 rounded-full md:hover:bg-yellow-600 border-2 border-white transition-colors duration-300 z-10"
         >
           {copied ? 'Copied!' : 'Copy'}
         </button>
