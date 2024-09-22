@@ -35,8 +35,8 @@ function App() {
       
       {showModal && (
         <div className="fixed inset-0 flex justify-center items-center bg-gray-900 bg-opacity-50 z-50">
-          <div className="bg-white p-6 border border-red-600 rounded-lg shadow-lg text-center">
-            <h2 className="text-2xl md:text-5xl pb-5 font-custom text-balance text-red-600">good vibes only</h2>
+          <div className="bg-white p-6 border border-red-400 rounded-lg shadow-lg text-center">
+            <h2 className="text-2xl md:text-5xl pb-5 font-custom text-balance text-red-500">good vibes only</h2>
             <button
               className="block text-xl md:text-3xl text-white font-custom mx-auto bg-indigo-400 py-2 px-6 rounded-full transition-colors duration-300"
               onClick={handlePlayFromModal}

@@ -12,8 +12,8 @@ const Ripple = React.memo(() => {
           key={i}
           className="absolute -translate-x-1/2 -translate-y-1/2 animate-ripple rounded-full bg-blue-500"
           style={{
-            width: MAIN_CIRCLE_SIZE + i * 70,
-            height: MAIN_CIRCLE_SIZE + i * 70,
+            width: MAIN_CIRCLE_SIZE + i * 80,
+            height: MAIN_CIRCLE_SIZE + i * 80,
             opacity: MAIN_CIRCLE_OPACITY - i * 0.03,
             animationDelay: `${i * 0.06}s`
           }}
