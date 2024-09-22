@@ -10,7 +10,7 @@ const Ripple = React.memo(() => {
       {Array.from({ length: NUM_CIRCLES }, (_, i) => (
         <div
           key={i}
-          className="absolute -translate-x-1/2 -translate-y-1/2 animate-ripple rounded-full bg-yellow-300"
+          className="absolute -translate-x-1/2 -translate-y-1/2 animate-ripple rounded-full bg-blue-500"
           style={{
             width: MAIN_CIRCLE_SIZE + i * 70,
             height: MAIN_CIRCLE_SIZE + i * 70,
