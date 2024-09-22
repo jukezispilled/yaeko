@@ -75,23 +75,17 @@ function App() {
       <ReactAudioPlayer ref={audioRef} src="song.mp3" autoPlay={false} />
 
       {/* Large screen social media links */}
-      <div className="absolute bottom-10 right-10 flex flex-row z-30 hidden md:flex">
-        <a href="https://x.com/" className="p-2 hover:scale-110 transition ease-in-out duration-200">
-          <img src={Xlogo} alt="Xlogo" className="w-10 h-10 rounded-md" />
-        </a>
+      <div className="absolute bottom-7 right-7 flex flex-row z-30 hidden md:flex">
         <a href="https://t.me/" className="p-2 hover:scale-110 transition ease-in-out duration-200">
-          <img src={TG} alt="Tg logo" className="w-10 h-10" />
+          <img src={TG} alt="Tg logo" className="size-12" />
         </a>
       </div>
 
       {/* Small screen social media links */}
-      <div className="absolute top-5 left-5 flex flex-col items-center md:hidden">
+      <div className="absolute top-3 left-3 flex flex-col items-center md:hidden">
         <div className="flex flex-row">
           <a href="" className="p-2 hover:scale-110 transition ease-in-out duration-200">
-            <img src={Xlogo} alt="Xlogo" className="w-10 h-10 rounded-md" />
-          </a>
-          <a href="" className="p-2 hover:scale-110 transition ease-in-out duration-200">
-            <img src={TG} alt="Tg logo" className="w-10 h-10" />
+            <img src={TG} alt="Tg logo" className="size-10" />
           </a>
         </div>
       </div>
