@@ -65,7 +65,7 @@ function App() {
       <div className="flex justify-center mt-5 bg-slate-100 rounded-full z-10 items-center gap-4 px-5 py-1.5 w-min border-2 border-slate-400">
         <button
           onClick={handleCopy}
-          className="bg-indigo-400 text-white py-2 px-4 rounded-full md:hover:bg-indigo-500 border-2 border-white transition-colors duration-300 z-10"
+          className="bg-indigo-400 text-white py-2 px-4 rounded-full md:hover:bg-indigo-500 border-2 border-white transition-colors duration-300 z-10 text-xs md:text-base"
         >
           {copied ? 'Copied!' : 'Copy'}
         </button>
@@ -76,7 +76,7 @@ function App() {
 
       {/* Large screen social media links */}
       <div className="absolute bottom-7 right-7 flex flex-row z-30 hidden md:flex">
-        <a href="https://t.me/" className="p-2 hover:scale-110 transition ease-in-out duration-200">
+        <a href="https://t.me/yaekoportal" className="p-2 hover:scale-110 transition ease-in-out duration-200">
           <img src={TG} alt="Tg logo" className="size-12" />
         </a>
       </div>
@@ -84,7 +84,7 @@ function App() {
       {/* Small screen social media links */}
       <div className="absolute top-3 left-3 flex flex-col items-center md:hidden">
         <div className="flex flex-row">
-          <a href="" className="p-2 hover:scale-110 transition ease-in-out duration-200">
+          <a href="https://t.me/yaekoportal" className="p-2 hover:scale-110 transition ease-in-out duration-200">
             <img src={TG} alt="Tg logo" className="size-10" />
           </a>
         </div>
