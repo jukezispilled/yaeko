@@ -15,7 +15,7 @@ function App() {
   const emojis = ['🍓', '🫐', '🍒', '🥭'];
 
   const handleCopy = () => {
-    navigator.clipboard.writeText('soon...');
+    navigator.clipboard.writeText('G3guQR3cQoHGZXiKRj1nPxZKsrCdsgGvZWBov7HNpump');
     setCopied(true);
     setTimeout(() => {
       setCopied(false);
@@ -69,7 +69,7 @@ function App() {
         >
           {copied ? 'Copied!' : 'Copy'}
         </button>
-        <span className="whitespace-nowrap">soon...</span>
+        <span className="whitespace-nowrap">G3guQR3cQoHGZXiKRj1nPxZKsrCdsgGvZWBov7HNpump</span>
       </div>
 
       <ReactAudioPlayer ref={audioRef} src="song.mp3" autoPlay={false} />

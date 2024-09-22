@@ -61,7 +61,7 @@ export const BackgroundGradient = ({
         $yaeko
       </motion.div>
       <motion.a
-        href="https://pump.fun/board"
+        href="https://pump.fun/G3guQR3cQoHGZXiKRj1nPxZKsrCdsgGvZWBov7HNpump"
         className="absolute bottom-[16px] right-4 md:bottom-9 md:right-9 md:hover:scale-105 transition ease-in-out duration-200 text-2xl md:text-4xl bg-indigo-400 text-white px-5 py-2.5 rounded-md font-custom"
         style={{ zIndex: 30 }}
       >
